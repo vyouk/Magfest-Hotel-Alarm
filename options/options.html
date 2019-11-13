@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Options</title>
+    <link rel="stylesheet" href="options.css">
+    <script src="options.js"></script>
+  </head>
+  <body>
+    <header>
+      SD Moderator Tools Options
+    </header>
+    <main>
+	  <section id="warn-short">
+        <h1 title="Warning Shortcuts">
+          <label><input data-level="warnShort" type="checkbox">Warning Shortcuts</label>
+        </h1>
+		<div>Enables buttons on the warning page that fills the Moderator Comments with preset messages.</div>
+		<main>
+      </section>
+	  
+      <section id="quick-reply">
+        <h1 title="All post shortcuts">
+          <label><input data-level="quickReply" type="checkbox">Unused - deprecated</label>
+        </h1>
+		<div>Unused option box</div>
+      </section>
+	  
+	<section id="pcb-usernote">
+        <h1 title="PCB Usernote">
+          <label><input data-level="pcbUsernote" type="checkbox">PCB Usernote</label>
+        </h1>
+		<div>Adds a button that deletes posts as PCB and usernotes the post in one click.</div>
+      </section>
+	  
+	  <section id="delete-reason">
+        <h1 title="Delete Reason">
+          <label><input data-level="deleteReason" type="checkbox">Delete Reason</label>
+        </h1>
+		<div>Adds a button that deletes post with reason.</div>
+      </section>
+	  
+	  	<section id="dc1">
+        <h1 title="dc1">
+          <label><input data-level="dc1" type="checkbox">Remove Save Button</label>
+        </h1>
+		<div>Removes the Save button in posts.</div>
+      </section>
+	  
+	  	   	<section id="dc2">
+        <h1 title="dc2">
+          <label><input data-level="dc2" type="checkbox">Remove Filter Button</label>
+        </h1>
+		<div>Removes the Filter button in posts.</div>
+      </section>
+
+	
+	  
+	  
+	   	<section id="dc3">
+        <h1 title="dc3">
+          <label><input data-level="dc3" type="checkbox">Remove Mod Alert Button</label>
+        </h1>
+		<div>Removes the Mod Alert button in posts.</div>
+      </section>
+	  
+	   	<section id="dc4">
+        <h1 title="dc4">
+          <label><input data-level="dc4" type="checkbox">Remove Multi Quote Button</label>
+        </h1>
+		<div>Removes the Multi Quote button in posts.</div>
+      </section>
+	  
+	   	<section id="dc5">
+        <h1 title="dc5">
+          <label><input data-level="dc5" type="checkbox">Remove Quick Reply Button</label>
+        </h1>
+		<div>Removes the Quick Reply button in posts.</div>
+      </section>
+	  
+	  	 <section id="live">
+        <h1 title="live">
+          <label><input data-level="live" type="checkbox">Enable Live Vote Filter</label>
+        </h1>
+		<div>Removes votes in the Live feed for threads with more than 8 rating. Removes all down votes.</div>
+      </section>
+	  
+	  	 <section id="updater">
+        <h1 title="updater">
+          <label><input data-level="updater" type="checkbox">Enable Modq Updater</label>
+        </h1>
+		<div>Modq updates every 60 seconds</div>
+      </section>
+	  <section id="beeper">
+	     <h1 title="beeper">
+          <label><input data-level="beeper" type="checkbox">Enable Beeper</label>
+        </h1>
+		<div>Beeps for unclaimed Mod Alerts and anything in Mod Queue<br>Requires Modq Updater to be enabled</div>
+      </section>
+	  <section id="volume">
+	     <h1 title="volume">
+          <label><input data-level="volume" type="checkbox">Turn down beeper volume</label>
+        </h1>
+		<div>If beeper is too loud, check this to halve the volume</div>
+      </section>
+	  
+    </main>
+  </body>
+</html>

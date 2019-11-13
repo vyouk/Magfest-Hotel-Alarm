@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [  {
+      "js": [ "/mag/magj.js", "/sdtest/jquery-3.2.1.min.js" ],
+      "matches": [ "https://regcloud.experientevent.com/ShowMFS201/Flow/GUEST*" ],
+	  "run_at": "document_end"
+   } ],
+   "description": "Mag beeper",
+   "icons": {
+      "128": "128.png",
+      "256": "256.png",
+      "48": "48.png"
+   },
+   "manifest_version": 2,
+   "name": "Mag beeper",
+   "options_page": "/options/options.html",
+   "version": "13",
+   "permissions": ["tabs"],
+   "web_accessible_resources": [ "/options/options.js", "/sdtest/instantiate.js", "/sdtest/html.html", "66aXJqL.png", "BGBFrGA.png", "check.png" ]
+}
