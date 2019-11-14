@@ -5,10 +5,13 @@ var rooms;
 
 
 
+//var rs = document.getElementsByClassName("fa fa-fw fa-ban");
+//var rs2 = document.getElementsByClassName("fa fa-fw fa-check");
+//
 
 function checkForRooms(){
-	rooms = document.getElementsByClassName("panel");
-	if(rooms.length >= 3){
+	rooms = document.getElementsByClassName("fa fa-fw fa-check");
+	if(rooms.length >= 1){
 		//there's a room available
 		console.log("Room available");
 		
