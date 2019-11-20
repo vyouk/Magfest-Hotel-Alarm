@@ -5,7 +5,7 @@ Installation requires enabling Chrome developer mode.
 In developer mode, load unpacked/packed extension.
 
 Usage:
-Naviagate to the hotel webpage that you would like.
+Navigate to the hotel webpage that you would like.
 The gaylord link is here:
 https://regcloud.experientevent.com/ShowMFS201/Flow/GUEST#!/registrant//RoomChoice/500082
 
